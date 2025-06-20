@@ -59,7 +59,6 @@ if (isset($_POST['name'])) {
           <div class="mb-3">
             <button type="submit" class="btn btn-success rounded-pill" name="<?= isset($_GET['edit']) ? 'edit' : 'save'; ?>"><?= $header; ?></button>
             <button type="reset" class="btn btn-secondary rounded-pill">Reset</button>
-
           </div>
         </form>
       </div>
